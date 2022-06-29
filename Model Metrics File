@@ -1,0 +1,29 @@
+Model Name: Naive Bayes
+
+Model Features: text
+
+Model parameters: ['alpha', 'class_prior', 'fit_prior']
+
+Model best hyperparameters: alpha = 0.5
+
+
+Model performance metrics: 
+
+cross validation scores: [0.72979798, 0.70920245, 0.7225, 0.73218673, 0.73284314]
+
+classification report:  precision    recall  f1-score   support
+
+           0       0.78      0.91      0.84      1302
+           1       0.84      0.65      0.73       964
+
+    accuracy                           0.80      2266
+   macro avg       0.81      0.78      0.78      2266
+weighted avg       0.80      0.80      0.79      2266
+
+
+confusion matrix: [[1183,  119],
+                   [ 340,  624]]
+                   
+                   
+                   
+balanced accuracy score:80.22%
